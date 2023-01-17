@@ -1,0 +1,666 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    background: url(../imagenes/2560px-Puerto_Madero\,_Buenos_Aires_\(40689219792\).jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.bodyinverti {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    background: url(../imagenes/pexels-towfiqu-barbhuiya-13466267.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.tituloinver {
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 370px;
+}
+
+
+.cuerpo1 {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    background: url(../imagenes/02.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 20%;
+}
+
+.titulo2 {
+    font-style: oblique;
+    color: rgb(17, 92, 157);
+    margin: 0 auto; 
+}
+
+.title {
+background-color: #27406C;
+font-style: oblique;
+color: rgb(17, 92, 157);
+margin: 0 auto;
+
+}
+
+.grid_index {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 20% 20% 24% 30% 1%;
+    grid-row-gap: 1.0rem;
+    grid-template-areas:  "header"
+                          "title" 
+                          "nav"
+                          "section"
+                          "aside"
+                          "footer";
+}
+
+
+
+
+footer {
+   margin:0%;
+   padding: 0;
+   width: 100%;
+}
+
+nav {
+    padding: 40%;
+
+}
+
+.imagen {
+  width: 200px; 
+  height: 200px;
+}
+
+.flex-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 5%;
+    
+}
+
+.imagen2 {
+    width: 500px;
+    height: 250px;
+}
+
+.logo1 {
+    width: 50px;
+    height: 50px;
+}
+
+
+.animaciones {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+nav ul li :hover {
+    transform: scale(1.2,1.2);
+    transition: 1s;
+    
+}
+
+nav ul li {
+    margin: 9px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -150px;
+
+    
+}
+
+.botonera {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #CEB177;
+    font-size: 20px;   
+    margin: 16px;
+}
+
+.letrainver {
+  color: #CEB177;
+  margin-top: 10px;
+}
+
+
+.emagen {
+    width: 500px;
+    height: 250px;
+    margin: -70px;
+    margin-left: 10px;
+    
+    
+}
+
+.letra {
+    color: white;
+    margin-top: 10px;
+}
+
+.img01 {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+ 
+}
+
+.img01:hover {
+   width: 500px;
+   height: 500px;
+   border-radius: 10%;
+   animation-name: girar;
+   animation-duration: 7s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   justify-content: center;
+}
+
+@keyframes girar {
+
+    from {
+        transform: rotate(0deg); }
+        to {
+            transform: rotate(360deg);
+            
+
+        }
+    }
+
+.app {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 600px;
+    margin-left: 900px;
+
+}
+
+.navbar {
+    background-color: #27406C;
+}
+
+.mapa {
+    width: 1300px;
+    height: 700px;
+
+}
+
+.Dana {
+ width: 100%;
+ margin-left: 19px;
+}
+
+
+.Spi {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 19px;
+
+}
+
+.Arou {
+    width: 100%;
+   margin-top: 200px;
+   margin-left: 20px;
+}
+
+.Manua {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+
+.imgft {
+    width: 100%;
+    height: 500px;
+    
+}
+
+
+
+.letra1 {
+    color: white;
+    font-size: larger;
+
+}
+
+
+.form-label {
+    color: white;
+    font-size: larger;
+    
+}
+
+.fondito {
+    background-color: black;
+    opacity: .6;
+}
+
+
+.lamparita {
+    width: 150px;
+    height: 150px;
+}
+
+.texto001 {
+    background-color: black;
+    opacity: .6;
+    color: white;
+    margin-top: 10px;
+}
+
+.fot1 {
+  display: flex;
+  margin-top: 200px;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#27406C;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #27406C;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+.imgft1 {
+    width: 600px;
+    height: 700px;
+    margin-left: 1px;
+
+}
+
+.navbar {
+    margin-top: -10px;
+}
+
+.video {
+    
+    width: 700px;
+    height: 500px;
+    
+}
+
+.video1 {
+    align-items: center;
+margin-left: 600px;
+margin-top: -1000px;
+
+}
+
+
+.video2 {
+    margin: 400px;
+    padding: 150px;
+    margin-left: -400px;
+    margin-top: 250px;
+    color:#FFF;
+}
+
+.video3 {
+    margin-top: -415px;
+    margin-left: 1250px;
+    color: #FFF;
+}
+
+
+.tt1 {
+    margin-left: 420px;
+    margin-top: -100px;
+    
+}
+
+.tt2 {
+    margin-left: 460px;
+    margin-top: 100px;
+}
+
+.tt3 {
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.t1 {
+    margin-left: 320px;
+}
+
+.t2 {
+    margin-left: 365px;
+}
+
+.t3 { 
+    margin-left: 380px;
+    
+}
+
+.t4 { 
+    margin-left: 460px;
+    
+}
+
+.t5 { 
+    margin-left: 280px;
+    margin-top: 10px;
+    
+}
+
+.t6 { 
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+
+.insta {
+    width: 50px;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 1600px;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+    margin-top: -130px;
+    margin-left: 1500px;
+}
+
+
+.sobre {
+    width: 50px;
+    height: 50px;
+    margin-top: -180px;
+    margin-left: 1400px;
+}
+
+.imgyutu {
+    width: 50px;
+    height: 50px;
+    margin-top: 500px;
+    margin-left: 1300px;
+}
+
+.wp {
+    width: 50px;
+    height: 50px;
+    margin-top: -220px;
+    margin-left: 1700px;
+    
+}
+
+.foterking {
+    margin-top: 200px;
+    margin-left: -550px;
+
+}
+
+
+.t9 {
+    margin-top: -500px;
+    margin-left: 200px;
+}
+
+.t10 {
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+
+.t11 {
+    margin-top: 150px;
+     margin-left: 200px;
+}
+
+
+.txproyecto {
+    color: white;
+    font-size: larger;
+    margin: 100px;
+    padding: 150px;
+}
+
+
+
+
+.txproyecto1 {
+    margin-top: -300px;
+    
+}
+
+.imga {
+    transition: 1s;
+    width: 600px;
+    height: 600px;
+}
+
+.imgd {
+    transition: 1s;
+    width: 600px;
+    height: 600px;
+}
+
+
+.conte4:hover .imgd {-webkit-transform:scale(1);transform:scale(1.1);}
+.conte4 {overflow: hidden;}
+
+.conte5:hover .imga {-webkit-transform:scale(1);transform:scale(1.1);}
+.conte5 {overflow: hidden;}
+
+.conte4 {
+    margin-left: -100px;
+}
+
+.conte8 {
+    margin-left: -100px;
+}
+
+.col {
+    margin-left: -59px;
+}
+
+
+
+.txfondiu {
+    background: #999;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.txtx {
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.container {
+    margin-top: -150px;
+    margin-left: 1500px;
+}
+
+.abajo {
+    margin-top: -400px;
+}
+
+.letraeri {
+    color:#27406C;
+    font-size: 70px;
+    width: 16%;
+    margin-left: 600px;
+    margin-top: -100px;
+    width: 390px;
+    height: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.letraeri2 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+}
+
+
+.nav-fill {
+    background-color: #818895; 
+    height: 30px;
+}
+
+
+.nav-link1 {
+    color: white;
+    text-decoration: none;
+    cursor: point
+}
+
+.nav-link1:hover {
+    background-color: #27406C;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.imgdana {
+    width: 450px;
+    height: 350px;
+    margin-top: 350px;
+    cursor: pointer;
+}
+
+.imgspi {
+    width: 450px;
+    height: 350px;
+    margin-top: 350px;
+    cursor: pointer;
+}
+
+.imgaro {
+    width: 500px;
+    height: 450px;
+    margin-top: 350px;
+    cursor: pointer;
+    }
+
+
+
+.imgdana:hover {
+    transform: scale(1.2,1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.imgspi:hover {
+    transform: scale(1.2,1.2);
+    transition: 1s; 
+    cursor: pointer;
+}
+
+.imgaro:hover {
+    transform: scale(1.3,1.4);
+    transition: 1s;
+    cursor: pointer;
+}
+.imgmanu:hover {
+    transform: scale(1.3,1.4);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sectioninit {
+    width: 100%;
+    margin-top: 900px;
+    margin-left: 30px;
+    display: grid;
+}
+
+.letrasinit {
+    font-size: larger;
+}
+
+.txfondiu1 {
+    background: #999;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    opacity: 0.7;
+    margin: -50px;
+    animation: backInLeft;
+    animation-duration: 10s;
+}
+
+.letrasaro {
+    margin-left: 600px;
+}
+
+.letrasmanua {
+    margin-left: 600px;
+}
+
+.imgservi {
+    width: 1300px;
+    height: 1000px;
+    margin-left: 350px;
+    margin-top: 200px;
+    animation: flip;
+    animation-duration: 3s;
+    
+}
+
+.imgservi:hover {filter: grayscale(80%);}
+
+
+.imgmanu {
+    width: 450px;
+    height: 400px;
+    margin-top: 350px;
+}
+
+.txspi {
+    margin-left: -100px;
+}
+
