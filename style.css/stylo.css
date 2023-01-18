@@ -226,20 +226,20 @@ nav ul {
 .Spi {
     width: 100%;
     margin-top: 200px;
-    margin-left: 19px;
+    margin-left: 600px;
 
 }
 
 .Arou {
     width: 100%;
    margin-top: 200px;
-   margin-left: 20px;
+   margin-left: 600px;
 }
 
 .Manua {
     width: 100%;
     margin-top: 200px;
-    margin-left: 20px;
+    margin-left: 600px;
 }
 
 
@@ -575,7 +575,7 @@ margin-top: -1000px;
 .imgdana {
     width: 450px;
     height: 350px;
-    margin-top: -350px;
+    margin-top: -250px;
     margin-left: -500px;
     cursor: pointer;
 }
@@ -583,14 +583,16 @@ margin-top: -1000px;
 .imgspi {
     width: 450px;
     height: 350px;
-    margin-top: 350px;
+    margin-top: -350px;
+    margin-left: -450px;
     cursor: pointer;
 }
 
 .imgaro {
     width: 500px;
     height: 450px;
-    margin-top: 350px;
+    margin-top: -300px;
+    margin-left: 1200px;
     cursor: pointer;
     }
 
@@ -655,12 +657,12 @@ margin-top: -1000px;
   
 }
 
-.letrasaro {
-    margin-left: 600px;
-}
+
 
 .letrasmanua {
-    margin-left: 600px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 100px;
 }
 
 .imgservi {
@@ -679,11 +681,12 @@ margin-top: -1000px;
 .imgmanu {
     width: 450px;
     height: 400px;
-    margin-top: 350px;
+    margin-top: -350px;
+    margin-left: 1300px;
 }
 
 .txspi {
-    margin-left: -100px;
+    margin-left: 50px;
 }
 
 
