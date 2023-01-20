@@ -76,8 +76,6 @@ footer {
 
 nav {
     padding: 40%;
-    
-
 }
 
 .imagen {
@@ -128,9 +126,6 @@ nav ul {
     justify-content: center;
     justify-items: center;
     margin-left: -150px;
-    
-
-    
 }
 
 .botonera {
@@ -145,8 +140,11 @@ nav ul {
 
 .letrainver {
   color: #CEB177;
-  margin-top: 10px;
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
+ 
 }
+
 
 
 .emagen {
@@ -440,7 +438,8 @@ margin-top: -1000px;
 .foterking {
     margin-top: 200px;
     margin-left: -550px;
-
+    background-color: #27406C;
+    height: 700px;
 }
 
 
@@ -642,6 +641,7 @@ margin-top: -1000px;
     margin: 0;
     text-align: center;
     opacity: 0.7;
+    margin-top: 100px;
 
 }
 
@@ -659,11 +659,7 @@ margin-top: -1000px;
 
 
 
-.letrasmanua {
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 100px;
-}
+
 
 .imgservi {
     width: 1300px;
@@ -703,4 +699,18 @@ margin-top: -1000px;
    font-weight:900;
 
     
+}
+
+
+.emagen1 {
+    width: 500px;
+    height: 250px;
+    margin-left: 1270px;
+    margin-top: -600px;
+    
+}
+
+
+.textofot1 {
+    margin-top: -200px;
 }
