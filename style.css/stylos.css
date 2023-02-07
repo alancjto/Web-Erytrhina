@@ -1,0 +1,48 @@
+.letra {
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin-top: 30px;
+    
+}
+
+.letra:hover {
+    transform: scale(1.2,1.2);
+    transition: 1s;
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.letrainver {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #CEB177;
+    font-size: xx-large;
+    border-style: double;
+    margin-top: 15px;
+   
+}
+
+
+
+.navbar-toggler-icon {
+    background-color:#CEB177;
+}
+
+.letraini {
+    margin-top: 15px;
+}
+
+.sectioninit {
+    margin-top: 1200px;
+ }
+
+
+ .foterking {
+    margin-top: 100px;
+    margin-left: -550px;
+    background-color: #27406C;
+    height: 560px;
+    padding: -500px;
+    padding-top: -700px;
+    
+}
+

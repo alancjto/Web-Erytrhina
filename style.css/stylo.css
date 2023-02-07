@@ -1,7 +1,7 @@
 body {
+    display: grid;
     margin: 0%;
     padding: 0%;
-    display: grid;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     background: url(../imagenes/2560px-Puerto_Madero\,_Buenos_Aires_\(40689219792\).jpg);
     background-size: 100%;
@@ -19,6 +19,52 @@ body {
 
 }
 
+.titulomante {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.apellido {
+    margin-left: 600px;
+    margin-top: -20px;
+}
+
+.email {
+    margin-left: 300px;
+}
+
+.nombre {
+    margin-left: 20px;
+}
+
+.pais {
+    margin-left: 20px;
+}
+
+.letra {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.contenidona {
+    
+    margin-left: 20px;
+}
+
+.letraini {
+    margin-top: 1px;
+    margin-left: 450px;
+}
+
+.txtx {
+    margin-left: -500px;
+    font-size: 30px;
+}
+
+.imgft2 {
+    margin-left: 1200px;
+}
+
 .tituloinver {
     display: flex;
     align-items: center;
@@ -26,6 +72,20 @@ body {
     margin-top: 370px;
 }
 
+.fondito {
+    margin-top: 150px;
+}
+
+.mapa1 {
+    margin-top: -750px;
+}
+
+.mapa {
+    width: 1400px;
+    height: 750px;
+    margin-left: 602px;
+    
+}
 
 .cuerpo1 {
     margin: 0%;
@@ -36,6 +96,10 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     background-position: 20%;
+}
+
+.txtxproyecto {
+    margin-left: 100px;
 }
 
 .titulo2 {
@@ -68,15 +132,7 @@ margin: 0 auto;
 
 
 
-footer {
-   margin:0%;
-   padding: 0;
-   width: 100%;
-}
 
-nav {
-    padding: 40%;
-}
 
 .imagen {
   width: 200px; 
@@ -110,23 +166,8 @@ nav {
     animation-iteration-count: infinite;
 }
 
-nav ul li :hover {
-    transform: scale(1.2,1.2);
-    transition: 1s;
-    
-}
 
-nav ul li {
-    margin: 9px;
-    
-}
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-left: -150px;
-}
 
 .botonera {
     width: 200px;
@@ -139,11 +180,34 @@ nav ul {
 }
 
 .letrainver {
-  color: #CEB177;
-  font-size: xx-large;
-  font-family:'Times New Roman', Times, serif;
- 
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #CEB177;
+    margin-left: 10px;
 }
+
+.letrainver2 {
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    color: #CEB177;
+    margin-left: -50px;
+    
+}
+
+
+
+.letrainver:hover {
+     font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #CEB177;
+    
+}
+
+.letrainver2:hover {
+    color: black;
+}
+
+
 
 
 
@@ -156,10 +220,9 @@ nav ul {
     
 }
 
-.letra {
-    color: white;
-    margin-top: 10px;
-}
+
+
+
 
 .img01 {
     width: 500px;
@@ -206,11 +269,7 @@ nav ul {
     background-color: #27406C;
 }
 
-.mapa {
-    width: 1300px;
-    height: 700px;
 
-}
 
 .Dana {
  width: 100%;
@@ -218,6 +277,8 @@ nav ul {
  margin-top: 200px;
  margin-left: 600px;
  align-items: center;
+ animation: backInRight;
+ animation-duration: 5s;
 }
 
 
@@ -225,19 +286,28 @@ nav ul {
     width: 100%;
     margin-top: 200px;
     margin-left: 600px;
-
+    animation: backInRight;
+    animation-duration: 15s;
 }
 
 .Arou {
     width: 100%;
    margin-top: 200px;
    margin-left: 600px;
+   animation: backInLeft;
+   animation-duration: 10s;
 }
 
 .Manua {
     width: 100%;
     margin-top: 200px;
     margin-left: 600px;
+    animation: backInLeft;
+    animation-duration: 20s;
+}
+
+.letritamanu {
+    margin-left: 150px;
 }
 
 
@@ -280,10 +350,6 @@ nav ul {
     margin-top: 10px;
 }
 
-.fot1 {
-  display: flex;
-  margin-top: 200px;
-}
 
 
 .float{
@@ -300,6 +366,8 @@ nav ul {
 	box-shadow: 2px 2px 3px #999;
     z-index:100;
 }
+
+
 .float:hover {
 	text-decoration: none;
 	color: #27406C;
@@ -313,9 +381,14 @@ nav ul {
 
 .imgft1 {
     width: 600px;
-    height: 700px;
+    height: 750px;
     margin-left: 1px;
+    margin-top: 0px;
 
+}
+
+.fot1 {
+    margin-top: 0px;
 }
 
 .navbar {
@@ -330,7 +403,7 @@ nav ul {
 }
 
 .video1 {
-    align-items: center;
+align-items: center;
 margin-left: 600px;
 margin-top: -1000px;
 
@@ -351,51 +424,6 @@ margin-top: -1000px;
     color: #FFF;
 }
 
-
-.tt1 {
-    margin-left: 420px;
-    margin-top: -100px;
-    
-}
-
-.tt2 {
-    margin-left: 460px;
-    margin-top: 100px;
-}
-
-.tt3 {
-    margin-left: 350px;
-    margin-top: 150px;
-}
-
-.t1 {
-    margin-left: 320px;
-}
-
-.t2 {
-    margin-left: 365px;
-}
-
-.t3 { 
-    margin-left: 380px;
-    
-}
-
-.t4 { 
-    margin-left: 460px;
-    
-}
-
-.t5 { 
-    margin-left: 280px;
-    margin-top: 10px;
-    
-}
-
-.t6 { 
-    margin-left: 350px;
-    margin-top: 10px;
-}
 
 
 .insta {
@@ -423,7 +451,7 @@ margin-top: -1000px;
 .imgyutu {
     width: 50px;
     height: 50px;
-    margin-top: 500px;
+    margin-top: 200px;
     margin-left: 1300px;
 }
 
@@ -436,11 +464,12 @@ margin-top: -1000px;
 }
 
 .foterking {
-    margin-top: 200px;
+    margin-top: 500px;
     margin-left: -550px;
     background-color: #27406C;
-    height: 700px;
+    height: 400px; 
 }
+
 
 
 .t9 {
@@ -467,8 +496,10 @@ margin-top: -1000px;
     padding: 150px;
 }
 
-
-
+.txtxproyecto {
+    margin-left: 0px;
+    font-size: 50px;
+}
 
 .txproyecto1 {
     margin-top: -300px;
@@ -519,9 +550,32 @@ margin-top: -1000px;
 
 }
 
-.txtx {
-    margin-top: 50px;
-    font-size: larger;
+.txtx3 {
+    margin-left: -800px;
+}
+
+.txtx4 {
+    margin-left: 780px;
+    margin-top: -49px;
+}
+
+.txtx5 {
+    margin-left: -800px;
+}
+
+.txtx6 {
+    margin-left: 830px;
+    margin-top: -50px;
+}
+
+.txtx7 {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.txtx8 {
+    margin-left: 100px;
+    margin-top: -50px;
 }
 
 .container {
@@ -593,6 +647,8 @@ margin-top: -1000px;
     margin-top: -300px;
     margin-left: 1200px;
     cursor: pointer;
+    animation: backInLeft;
+    animation-duration: 10s;
     }
 
 
@@ -621,10 +677,10 @@ margin-top: -1000px;
 }
 
 .sectioninit {
-    width: 100%;
-    margin-top: 900px;
-    margin-left: 30px;
-    display: grid;
+   margin-top: 1200px;
+   margin-left: 0px;
+   width: 0;
+   display: flex;
 }
 
 .letrasinit {
@@ -679,6 +735,8 @@ margin-top: -1000px;
     height: 400px;
     margin-top: -350px;
     margin-left: 1300px;
+    animation: backInLeft;
+    animation-duration: 20s;
 }
 
 .txspi {
@@ -697,6 +755,8 @@ margin-top: -1000px;
 .letraflor {
     font-size: 50px;
    font-weight:900;
+   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+   color: #CEB177;
 
     
 }
@@ -714,3 +774,750 @@ margin-top: -1000px;
 .textofot1 {
     margin-top: -200px;
 }
+
+
+.Letraaero {
+    margin-top: -500px;
+    margin-left: 0px;
+    width: 700px;
+}
+
+.imgaerou {
+    margin-top: -300px;
+    margin-left: -660px;
+}
+
+.Letraaero1 {
+    margin-top: -200px;
+    margin-left: -660px;
+    animation: fadeIn;
+    animation-duration: 25s;
+}
+
+.Letraaero2 {
+    margin-top: -200px;
+    margin-left: -300px;
+    animation: fadeIn;
+    animation-duration: 25s;
+}
+
+.Letraaero3 {
+    margin-top: 50px;
+    margin-left: -500px;
+    animation: fadeIn;
+    animation-duration: 25s;
+}
+
+.Letraaero4 {
+ 
+   margin-top: 750px;
+   margin-left: 550px;
+   
+}
+
+.letraeri2 {
+    margin-left: -500px;
+}
+
+.txtxx {
+    margin-left: -500px;
+}
+
+.nav-item1 {
+    margin-left: 250px;
+}
+
+.nav-item2 {
+    margin-left: 300px;
+}
+
+.nav-item3 {
+    margin-left: 400px;
+}
+
+.nav-item4 {
+    margin-left: 400px;
+}
+
+.conte4 {
+    margin-left: -1100px;
+}
+
+
+
+
+
+/* celular */
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        background: url(../imagenes/2560px-Puerto_Madero\,_Buenos_Aires_\(40689219792\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        box-sizing: border-box;
+      
+    }
+
+
+    html, body {
+        width: 100%!important;
+        overflow-x: hidden!important;
+    }
+
+    .bodycelu {
+       min-height:  100vh;
+       width: 100vh;
+       overflow-x: hidden;
+       overflow-y: hidden;
+        
+    }
+
+ .navbar-expand {
+    width: 500px;
+ }
+
+ 
+    
+    
+
+     .letrainver2 {
+        margin-left: -500px;
+        color: white;
+        font-size: 16px;
+     }
+
+     .letraflor {
+        margin-left: 20px;
+        margin-top: -250px;
+       
+     }
+
+
+
+     .letra:hover {
+        
+        color: #CEB177;
+    }
+
+.img01 {
+    margin-top: -100px;
+    margin-left: -450px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+ 
+}
+
+.img01:hover {
+   width: 300px;
+   height: 200px;
+   border-radius: 10%;
+   animation-name: none;
+   animation-duration: 0;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   justify-content: center;
+}
+
+@keyframes girar {
+
+    from {
+        transform: rotate(0deg); }
+        to {
+            transform: rotate(0deg);
+            
+
+        }
+    }
+
+.app {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 600px;
+    margin-left: 900px;
+
+}
+
+.txproyecto2 {
+    margin-left: 1200px;
+}
+
+.imgft1 {
+    margin-left: -80px;
+}
+
+
+
+
+.mapa1 {
+    margin-top: 0px;
+    margin-left: -600px;
+}
+
+
+
+  .emagen {
+    width: 200px;
+    height: 150px;
+    margin-top: 5px;
+    
+}
+
+
+
+.tituloflor {
+    font-size:x-large;
+    margin-top: 450px;
+    margin-left: -1350px;
+    width: 200px;
+    height: 100%;
+}
+
+
+.Dana {
+    width: 200px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: -250px;
+    align-items: center;
+    
+   }
+
+   .imgdana {
+    width: 450px;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.sectioninit {
+    margin-top: 1200px;
+    margin-left: 500px;
+ }
+
+ .Dana{
+    margin-top: -200px;
+    margin-left: -510px;
+    
+ }
+
+ .imgdana {
+    margin-left: 30px;
+ }
+
+ .Arou {
+    margin-top: 900px;
+    margin-left: -470px;
+ }
+
+ .imgaro {
+    margin-top: 200px;
+    margin-left: -500px;
+ }
+
+ .Spi {
+    margin-top: 200px;
+    margin-left: -450px;
+ }
+
+ .imgspi {
+    margin-top: 200px;
+    margin-left: -30px;
+ }
+
+
+.Manua {
+    margin-top: 200px;
+    margin-left: -482px;
+}
+
+.imgmanu {
+    margin-top: 200px;
+    margin-left: -470px;
+}
+
+.letrasmanua {
+    margin-left: -100px;
+    margin-top: -50px;
+}
+
+.letritamanu {
+    font-size: 25px;
+}
+
+.letrasinit {
+    font-size: 15px;
+}
+
+.letrasinit1 {
+    margin-top: -100px;
+  
+}
+
+.terminado1 {
+    margin-left: -240px;
+}
+
+.terminado2{
+    margin-left: -300px;
+    
+}
+
+.terminado3 {
+    margin-left: -320px;
+    margin-top: -40px;
+}
+
+.terminado4 {
+    margin-left: -450px;
+    margin-top: -40px;
+}
+
+
+
+.mod1 {
+    margin-left: 50px;
+}
+
+.mod2 {
+    margin-left: 50px;
+}
+
+.mod3 {
+    margin-left: 50px;
+}
+
+.mod4 {
+    margin-left: 50px;
+}
+
+.mod5 {
+    margin-left: 50px;
+}
+
+.mod7 {
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+.mod8 {
+    margin-left: 50px;
+}
+
+.mod9 {
+    margin-left: 50px;
+}
+
+.mod10 {
+    margin-left: 54px;
+    font-size: 14px;
+}
+
+.mod11 {
+    font-size: 15px;
+}
+
+.mod12 {
+    font-size: 15px;
+}
+
+.mod13 {
+    margin-left: -70px;
+    font-size: 10;
+}
+
+.mod14 {
+    margin-left: -60px;
+    font-size: 25px;
+}
+
+.mod15 {
+    margin-left: -47px;
+    font-size: 14px;
+}
+
+.mod16 {
+    margin-left: -70px;
+}
+
+.mod17 {
+    margin-left: -70px;
+}
+
+.mod18 {
+    margin-left: -60px;
+}
+
+.mod19 {
+    margin-left: -70px;
+}
+
+.mod20 {
+    margin-left: -60px;
+}
+
+.mod21 {
+    margin-left: -60px;
+}
+
+.mod22 {
+    margin-left: -60px;
+}
+
+.letrasaro1 {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.foterking {
+    margin-top: 100px;
+    margin-left: -400px;
+    background-color: #27406C;
+    height: 700px;
+   width: 1100px;
+    
+}
+
+.botonera {
+    margin-left: 8px;
+}
+
+.emagen2 {
+    margin-left: -150px;
+}
+
+.foterking2 {
+
+    margin-top: 700px;
+    margin-left: -400px;
+    background-color: #27406C;
+    height: 700px;
+   width: 1800px;
+
+}
+
+.emagen1 {
+    width: 350px;
+    margin-left: -50px;
+    margin-top: -1000px;
+}
+
+
+.imgyutu1 {
+
+   margin-left: 730px;
+   
+}
+
+.insta1 {
+    margin-left: 420px;
+    
+}
+
+.wp1 {
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+.face1 {
+    margin-left: 660px;
+    
+}
+
+.sobre1 {
+    margin-top: 10px;
+    margin-left: 580px;
+    width: 50px;
+    height: 50px;
+}
+
+.txproyecto {
+    margin-left: -700px;
+    font-size: 20px;
+}
+
+.txtxproyecto {
+    margin-left: 10px;
+    font-size: 22px;
+  
+}
+
+
+
+.txproyecto2 {
+    margin-left: -480px;
+}
+
+.txtx2 {
+    margin-left: -100px;
+}
+
+.imgft2 {
+    margin-top: 1200px;
+}
+
+.txproyecto1 {
+    margin-left: -310px;
+    
+}
+
+.txtx22 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.titueri {
+    margin-left: 20px;
+}
+
+.txtx {
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.txtx10 {
+    margin-left: 350px;
+    font-size: 25px;
+    
+}
+
+.txtx11 {
+    margin-left: 350px;
+    font-size: 25px;
+    margin-top: -40px;
+
+}
+
+.txtx2 {
+    margin-left: -550px;
+}
+
+.txtx22 {
+    margin-left: 750px;
+}
+
+.letraeri2 {
+    font-size: x-large;
+    
+    margin-left: -180px;
+}
+ 
+.letraini {
+    margin-left: -5px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.letraini1 {
+    margin-left: -5px;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.letrana1 {
+    margin-left: -29px;
+    font-size: 13px;
+}
+
+.letrana2 {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.letrana3 {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.letrana4 {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.letrana5 {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.letrana6 {
+    margin-left: -85px;
+    margin-top: 10px;
+}
+
+.letrana7 {
+    font-size: 15px;
+    
+}
+
+
+.letrana13 {
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+.letrana14 {
+    font-size: 18px;
+    
+}
+
+.tximgconte {
+    margin-left: -70px;
+}
+
+.imgd {
+    width: 700px;
+    height: 450px;
+}
+
+.imga {
+    width: 550px;
+    height: 450px;
+}
+
+.imgservi {
+    width: 500px;
+    height: 500px;
+    margin-left: -10px;
+    margin-top: 200px;
+    
+}
+ 
+
+
+
+.emagen2 {
+    margin-left: 430px;
+}
+
+.fote2 {
+    margin-left: -50px;
+}
+
+
+
+.letrap {
+    margin-left: -5px;
+}
+
+.letraeri3 {
+    font-size: 70px;
+    margin-left: -450px;
+}
+
+.conte6 {
+    margin-left: -95px;
+}
+
+.emagen2 {
+    margin-left: 470px;
+}
+
+.col-md-4 {
+    margin-left: -10px;
+}
+
+.col-md-6 {
+  margin-left: -10px;
+}
+
+.col-md-3 {
+  margin-left: 630px;
+}
+
+.apellido {
+    margin-top: 20px;
+    margin-left: 330px;
+}
+
+.email {
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.nombre {
+    margin-left: 20px;
+}
+
+.pais {
+    margin-left: 20px;
+}
+
+
+
+ }
+
+ /* tablet y notebook */
+
+
+ @media only screen and (min-width:481px) and (max-width:650px) {
+
+    .letraflor {
+        margin-left: -250px;
+        margin-top: -100px;
+       
+     }
+
+     .img01 {
+        margin-left: -120px;
+     }
+
+    .Dana {
+        margin-left: 500px;
+    }
+
+    .Arou {
+        margin-left: 500px;
+    }
+
+    .imgaro {
+        margin-left: -20px;
+    }
+
+    .Spi {
+        margin-left: 500px;
+    }
+
+    .Manua {
+        margin-left: 500px;
+    }
+
+    .imgmanu {
+        margin-left: -20px;
+    }
+
+    .foterking {
+        margin-top: 100px;
+        background-color: #27406C;
+        height: 100%;
+        width: 3000px;
+        
+    }
+
+ }
+
+ /* pc */
+    @media only screen and (min-width:481px) and (max-width:1650px) {
+
+        .foterking {
+            margin-top: 100px;
+            background-color: #27406C;
+            height: 100%;
+            width: 3000px;
+            
+        }
+    
+    }
+
+
+ 
