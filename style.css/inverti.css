@@ -1,0 +1,182 @@
+.bodyinverti {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    background: linear-gradient(rgba(5,7,12,0.85),rgba(5,7,12,0.85)), url(../imagenes/pexels-towfiqu-barbhuiya-13466267.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+footer {
+    margin-top: 1200px;
+    margin-left: 700px;
+}
+
+
+
+.Letraaero {
+    color: #CEB177;
+    margin-top: -500px;
+    margin-left: 0px;
+    width: 700px;
+}
+
+.imgaerou {
+    margin-top: -300px;
+    margin-left: -660px;
+}
+
+.Letraaero1 {
+    color: #CEB177;
+    margin-top: -200px;
+    margin-left: -660px;
+    animation: fadeIn;
+    animation-duration: 25s;
+}
+
+.Letraaero2 {
+    color: #CEB177;
+    margin-top: -200px;
+    margin-left: -300px;
+    animation: fadeIn;
+    animation-duration: 25s;
+}
+
+.Letraaero3 {
+    color: #CEB177;
+    margin-top: 50px;
+    margin-left: -500px;
+    animation: fadeIn;
+    animation-duration: 25s;
+}
+
+.Letraaero4 {
+   color: #CEB177;
+   margin-top: 750px;
+   margin-left: 550px;
+   
+}
+
+
+.img01 {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+ 
+}
+
+.img01:hover {
+   width: 500px;
+   height: 500px;
+   border-radius: 10%;
+   animation-name: girar;
+   animation-duration: 7s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   justify-content: center;
+}
+
+@keyframes girar {
+
+    from {
+        transform: rotate(0deg); }
+        to {
+            transform: rotate(360deg);
+            
+
+        }
+    }
+
+
+    .app {
+        position: absolute;
+        width: 0%;
+        height: 0%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 600px;
+        margin-left: 900px;
+    
+    }
+
+
+    .textoaro {
+        margin-left: 250px;
+        margin-top: 200px;
+    }
+
+    .imgsec {
+        width: 200px;
+        height: 200px;
+        margin-left: -10px;
+    }
+
+    .textosec {
+        margin-left: -280px;
+    }
+
+    .estandares {
+        margin-left: -40px;
+    }
+
+    .trans {
+        margin-left: 25px;
+    }
+
+    .centro {
+        margin-left: -8px;
+    }
+
+    .todos {
+        margin-left: 40px;
+    }
+
+    .confiable {
+        margin-left: 45px;
+    }
+
+
+    .textocentro {
+        margin-left: -200px;
+    }
+
+    .textoconfiable {
+        margin-left: -170px;
+    }
+
+
+    .textotrans {
+        margin-left: -150px;
+    }
+
+
+    .textoestandares {
+        margin-left: -210px;
+    }
+
+
+    .textoestandares1 {
+        margin-left: -300px;
+    }
+
+
+    .imginverti {
+        margin-top: 100px;
+        margin-left: -200px;
+    }
+
+
+   .Letraaero {
+
+    margin-top: -1000px;
+
+    }
+
+
+footer {
+    margin-top: 300px;
+    margin-left: 100px;
+}

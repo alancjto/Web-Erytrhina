@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.inver {
+    color: #CEB177;
+    border-style:groove;
+    border-radius: 20px;
+}
+
+.emagen001 {
+    width: 220px;
+    height: 200px;
+    margin-top: -80px;
+    margin-left: -10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    background: #27406C;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+    color: white;
+    background-color: white;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+   
+    
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+    
+}
+
+nav ul li a:hover{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+}
+
+
+
+ li:hover{
+    transform: scale(1.0,1.1);
+    transition: 1s;
+    cursor: pointer;
+    background-color: #CEB177;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 1061px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1061px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    li a:hover, li a {
+        background: none;
+        color: #CEB177;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .emagen001 {
+        margin-left: px;
+    }
+}

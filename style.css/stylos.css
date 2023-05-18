@@ -46,3 +46,116 @@
     
 }
 
+
+.hotel1 {
+    background-color: #CEB177;
+    opacity: .7;
+    margin-top: 100px;
+    margin-left: 0px;
+    
+}
+
+.hotel2 {
+   
+    margin-top: 400px;
+    
+    background-color: #CEB177;
+    opacity: .7;
+}
+.hotel3 {
+   
+    margin-top: 400px;
+    background-color: #CEB177;
+    opacity: .7;
+}
+.hotel4 {
+   
+    margin-top: 400px;
+    
+    background-color: #CEB177;
+    opacity: .7;
+}
+.hotel5 {
+   
+    margin-top: 400px;
+    
+    background-color: #CEB177;
+    opacity: .7;
+}
+.hotel6 {
+   
+    margin-top: 400px;
+   
+    background-color: #CEB177;
+    opacity: .7;
+}
+
+.hotel7 {
+   
+    margin-top: 400px;
+   
+    background-color: #CEB177;
+    opacity: .7;
+}
+
+.hotel8 {
+   
+    margin-top: 400px;
+   
+    background-color: #CEB177;
+    opacity: .8;
+}
+
+.titulosp {
+    color: black;
+    margin-left: 600px;
+}
+
+
+
+
+.imgpaz {
+    margin-left: 500px;
+}
+
+.imggallegos {
+    margin-left: 600px;
+}
+
+
+.imgrocco {
+    margin-left: 650px;
+}
+
+.imgcomplejo1 {
+    margin-top: -400px;
+    margin-left: 1120px;
+}
+
+.imgjuez {
+    margin-left: 500px;
+}
+
+.imgspa {
+    margin-left: 350px;
+   animation: animate__bounceInLeft;
+   animation-duration: 6s;
+}
+
+.titulohotel {
+    margin-left: 880px;
+
+}
+
+.imgsanjuan {
+    margin-left: 470px;
+}
+
+.bailarda {
+    margin-left: 450px;
+}
+
+.imgcomple {
+    margin-left: 200px;
+}
+

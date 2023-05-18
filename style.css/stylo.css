@@ -8,15 +8,81 @@ body {
     background-attachment: fixed;
 }
 
-.bodyinverti {
-    margin: 0%;
-    padding: 0%;
-    display: grid;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    background: url(../imagenes/pexels-towfiqu-barbhuiya-13466267.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
 
+
+
+.txtx11 {
+    margin-left: 400px;
+}
+
+.txtx10 {
+    margin-left: 350px;
+}
+
+.abrirmenu {
+    display: none;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27406C;
+    color: #FFF;
+}
+
+.Navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Navbar-links li {
+         list-style: none;
+}
+
+.Navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    
+}
+
+.Navbar-links li:hover {
+    transform: scale(1.3,1.4);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 10px;
+
+}
+
+nav {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
+
+.cons {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #CEB177;
 }
 
 .titulomante {
@@ -57,7 +123,7 @@ body {
 }
 
 .txtx {
-    margin-left: -500px;
+    
     font-size: 30px;
 }
 
@@ -220,7 +286,15 @@ margin: 0 auto;
     
 }
 
+.imgaerou {
+    margin-top: -300px;
+    margin-left: -660px;
+}
 
+.textito3 {
+    text-decoration: none;
+    color: #FFF;
+}
 
 
 
@@ -395,36 +469,6 @@ margin: 0 auto;
     margin-top: -10px;
 }
 
-.video {
-    
-    width: 700px;
-    height: 500px;
-    
-}
-
-.video1 {
-align-items: center;
-margin-left: 600px;
-margin-top: -1000px;
-
-}
-
-
-.video2 {
-    margin: 400px;
-    padding: 150px;
-    margin-left: -400px;
-    margin-top: 250px;
-    color:#FFF;
-}
-
-.video3 {
-    margin-top: -415px;
-    margin-left: 1250px;
-    color: #FFF;
-}
-
-
 
 .insta {
     width: 50px;
@@ -492,7 +536,7 @@ margin-top: -1000px;
 .txproyecto {
     color: white;
     font-size: larger;
-    margin: 100px;
+    margin: 50px;
     padding: 150px;
 }
 
@@ -503,6 +547,7 @@ margin-top: -1000px;
 
 .txproyecto1 {
     margin-top: -300px;
+    
     
 }
 
@@ -516,6 +561,7 @@ margin-top: -1000px;
     transition: 1s;
     width: 600px;
     height: 600px;
+   
 }
 
 
@@ -716,7 +762,6 @@ margin-top: -1000px;
 
 
 
-
 .imgservi {
     width: 1300px;
     height: 1000px;
@@ -776,44 +821,6 @@ margin-top: -1000px;
 }
 
 
-.Letraaero {
-    margin-top: -500px;
-    margin-left: 0px;
-    width: 700px;
-}
-
-.imgaerou {
-    margin-top: -300px;
-    margin-left: -660px;
-}
-
-.Letraaero1 {
-    margin-top: -200px;
-    margin-left: -660px;
-    animation: fadeIn;
-    animation-duration: 25s;
-}
-
-.Letraaero2 {
-    margin-top: -200px;
-    margin-left: -300px;
-    animation: fadeIn;
-    animation-duration: 25s;
-}
-
-.Letraaero3 {
-    margin-top: 50px;
-    margin-left: -500px;
-    animation: fadeIn;
-    animation-duration: 25s;
-}
-
-.Letraaero4 {
- 
-   margin-top: 750px;
-   margin-left: 550px;
-   
-}
 
 .letraeri2 {
     margin-left: -500px;
@@ -840,16 +847,68 @@ margin-top: -1000px;
 }
 
 .conte4 {
-    margin-left: -1100px;
+    margin-left: -1700px;
 }
 
+.txtx {
+    font-size: 17px;
+    
+}
 
+.imgcomple1 {
+    width: 350px;
+    margin-left: -160px;
+    margin-top: -90px;
+    
+    }
+    
+    .imgcomple2 {
+        width: 350px;
+        margin-left: -160px;
+    }
+    
+    .imgcomple3 {
+        width: 350px;
+        margin-left: -160px;
+    }
+    
+    .imgcomplejo2 {
+        width: 350px;
+        margin-top: 230px;
+        margin-left: 0px;
+    }
+    
+    .imgcomplejo3 {
+        width: 350px;
+        margin-left: -360px;
+        margin-top: -230px;
+        
+    }
+
+    .imgcomple4 {
+        margin-left: 250px;
+
+    }
+
+
+    .imgcomple {
+        margin-top: 0px;
+    }
+
+    .imgcomplejogrande {
+        margin-left: -10px;
+    }
+
+
+    
+
+  
 
 
 
 /* celular */
 
-@media only screen and (min-width:320px) and (max-width:480px) {
+@media only screen and (min-width:320px) and (max-width:420px) {
 
     body {
         margin: 0;
@@ -861,6 +920,8 @@ margin-top: -1000px;
         background-size: cover;
         background-attachment: fixed;
         box-sizing: border-box;
+        width: 100%!important;
+        overflow-x: hidden!important;
       
     }
 
@@ -870,19 +931,42 @@ margin-top: -1000px;
         overflow-x: hidden!important;
     }
 
-    .bodycelu {
-       min-height:  100vh;
-       width: 100vh;
-       overflow-x: hidden;
-       overflow-y: hidden;
-        
+    
+    .bodyinverti {
+        margin: 0%;
+        padding: 0%;
+        display: grid;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        background: url(../imagenes/pexels-towfiqu-barbhuiya-13466267.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    
     }
 
- .navbar-expand {
-    width: 500px;
- }
+    .titulomante {
+        margin-left: 20px;
+        margin-top: 50px;
+    
+    }
+
+    .letramante {
+        font-size: 14px;
+    }
+
+
+  
+
 
  
+
+   .bodycelu {
+    position:relative;
+    width:100%;
+    min-height:250px;
+    margin:auto;
+    overflow:hidden;
+   }
     
     
 
@@ -893,7 +977,7 @@ margin-top: -1000px;
      }
 
      .letraflor {
-        margin-left: 20px;
+        margin-left: -23px;
         margin-top: -250px;
        
      }
@@ -906,8 +990,8 @@ margin-top: -1000px;
     }
 
 .img01 {
-    margin-top: -100px;
-    margin-left: -450px;
+    margin-top: -150px;
+    margin-left: -470px;
     width: 300px;
     height: 300px;
     border-radius: 10%;
@@ -916,12 +1000,9 @@ margin-top: -1000px;
 
 .img01:hover {
    width: 300px;
-   height: 200px;
+   height: 300px;
    border-radius: 10%;
    animation-name: none;
-   animation-duration: 0;
-   animation-iteration-count: infinite;
-   animation-timing-function: linear;
    justify-content: center;
 }
 
@@ -1008,12 +1089,12 @@ margin-top: -1000px;
 
  .Dana{
     margin-top: -200px;
-    margin-left: -510px;
-    
+    margin-left: -450px;
+   
  }
 
  .imgdana {
-    margin-left: 30px;
+    margin-left: -50px;
  }
 
  .Arou {
@@ -1023,7 +1104,7 @@ margin-top: -1000px;
 
  .imgaro {
     margin-top: 200px;
-    margin-left: -500px;
+    margin-left: -540px;
  }
 
  .Spi {
@@ -1033,7 +1114,11 @@ margin-top: -1000px;
 
  .imgspi {
     margin-top: 200px;
-    margin-left: -30px;
+    margin-left: -70px;
+ }
+
+ .txspi {
+    margin-left: 70px;
  }
 
 
@@ -1044,7 +1129,7 @@ margin-top: -1000px;
 
 .imgmanu {
     margin-top: 200px;
-    margin-left: -470px;
+    margin-left: -500px;
 }
 
 .letrasmanua {
@@ -1053,11 +1138,25 @@ margin-top: -1000px;
 }
 
 .letritamanu {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .letrasinit {
-    font-size: 15px;
+    font-size: 10px;
+}
+
+.letranav1 {
+    margin-top: 1px;
+}
+
+.container-fluid {
+    margin-left: 8px;
+}
+
+.cons {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #CEB177;
 }
 
 .letrasinit1 {
@@ -1067,21 +1166,26 @@ margin-top: -1000px;
 
 .terminado1 {
     margin-left: -240px;
+    font-size: 15px;
 }
 
 .terminado2{
-    margin-left: -300px;
-    
+    margin-left: -470px;
+    font-size: 15px;
 }
 
 .terminado3 {
-    margin-left: -320px;
-    margin-top: -40px;
+    margin-left: -240px;
+    margin-top: -39px;
+    
+    font-size: 15px;
 }
 
 .terminado4 {
-    margin-left: -450px;
-    margin-top: -40px;
+    margin-left: -90px;
+    margin-top: -39px;
+
+    font-size: 15px;
 }
 
 
@@ -1106,8 +1210,12 @@ margin-top: -1000px;
     margin-left: 50px;
 }
 
+.mod6 {
+    margin-left: 50px;
+}
+
 .mod7 {
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 50px;
 }
 
@@ -1121,15 +1229,15 @@ margin-top: -1000px;
 
 .mod10 {
     margin-left: 54px;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .mod11 {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .mod12 {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .mod13 {
@@ -1144,7 +1252,7 @@ margin-top: -1000px;
 
 .mod15 {
     margin-left: -47px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .mod16 {
@@ -1176,7 +1284,7 @@ margin-top: -1000px;
 }
 
 .letrasaro1 {
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 50px;
 }
 
@@ -1244,13 +1352,17 @@ margin-top: -1000px;
 
 .txproyecto {
     margin-left: -700px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .txtxproyecto {
-    margin-left: 10px;
-    font-size: 22px;
+    margin-left:  -23px;
+    font-size: 20px;
   
+}
+
+.letranos101 {
+    margin-left: -15px;
 }
 
 
@@ -1260,7 +1372,7 @@ margin-top: -1000px;
 }
 
 .txtx2 {
-    margin-left: -100px;
+    margin-left: -150px;
 }
 
 .imgft2 {
@@ -1268,13 +1380,13 @@ margin-top: -1000px;
 }
 
 .txproyecto1 {
-    margin-left: -310px;
+    margin-left: -260px;
     
 }
 
 .txtx22 {
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: -100px;
 }
 
 .titueri {
@@ -1282,21 +1394,47 @@ margin-top: -1000px;
 }
 
 .txtx {
-    font-size: 20px;
-    margin-left: 150px;
+    font-size: 13px;
+    margin-left: 690px;
 }
 
+
+
 .txtx10 {
+    margin-top: -10px;
     margin-left: 350px;
-    font-size: 25px;
+    font-size: 13px;
     
 }
 
 .txtx11 {
     margin-left: 350px;
-    font-size: 25px;
+    font-size: 13px;
     margin-top: -40px;
 
+}
+
+.textito {
+
+    font-size: 10px;
+    margin-left: -750px;
+}
+
+.textito1 {
+    margin-left: -760px;
+}
+
+.textito2 {
+    margin-left: -750px;
+    font-size: 10px;
+}
+
+.textito3 {
+  
+    margin-left: -750px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #FFF;
 }
 
 .txtx2 {
@@ -1304,7 +1442,7 @@ margin-top: -1000px;
 }
 
 .txtx22 {
-    margin-left: 750px;
+    margin-left: 650px;
 }
 
 .letraeri2 {
@@ -1315,48 +1453,52 @@ margin-top: -1000px;
  
 .letraini {
     margin-left: -5px;
-    margin-top: 8px;
-    font-size: 14px;
+    margin-top: 2px;
+    font-size: 10px;
 }
 
 .letraini1 {
     margin-left: -5px;
-    margin-top: 8px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .letrana1 {
-    margin-left: -29px;
-    font-size: 13px;
+    margin-left: -20px;
+    font-size: 10px;
+    margin-top: 9px;
 }
 
 .letrana2 {
-    margin-left: 10px;
-    font-size: 13px;
+    margin-left: 13px;
+    font-size: 10px;
+    margin-top: 9px;
 }
 
 .letrana3 {
-    margin-left: 10px;
-    font-size: 13px;
+    margin-left: 13px;
+    font-size: 10px;
+    margin-top: 9px;
 }
 
 .letrana4 {
-    margin-left: 10px;
-    font-size: 13px;
+    margin-left: 13px;
+    font-size: 10px;
+    margin-top: 9px;
 }
 
 .letrana5 {
-    margin-left: 10px;
-    font-size: 13px;
+    margin-left: 18px;
+    font-size: 10px;
+    margin-top: 9px;
 }
 
 .letrana6 {
-    margin-left: -85px;
-    margin-top: 10px;
+    margin-left: -90px;
+    margin-top: 9px;
 }
 
 .letrana7 {
-    font-size: 15px;
+    font-size: 10px;
     
 }
 
@@ -1386,15 +1528,16 @@ margin-top: -1000px;
 }
 
 .imgservi {
-    width: 500px;
-    height: 500px;
-    margin-left: -10px;
+    width: 350px;
+    height: 350px;
+    margin-left: 35px;
     margin-top: 200px;
     
 }
- 
 
-
+ .emagen1 {
+    margin-left: -40px;
+ }
 
 .emagen2 {
     margin-left: 430px;
@@ -1453,15 +1596,242 @@ margin-top: -1000px;
     margin-left: 20px;
 }
 
+.letritamanu {
+    font-size: 15px;
+    
+}
+
+.letrasmanua {
+    margin-left: -40px;
+}
+
+.imga {
+    width: 320px;
+    margin-left: 10px;
+    
+}
+
+.conte5 {
+    margin-left: -21px;
+}
+
+.imgd {
+
+    margin-left: -120px;
+
+}
+
+.titulosp {
+    color: black;
+    margin-left: 16px;
+    font-size: 11px;
+}
+
+.imgspa {
+    width: 50px;
+    margin-left: 0px;
+}
+
+.imgspa1 {
+    width: 405px;
+}
 
 
- }
+.imgspa2 {
+    width: 405px;
+}
+
+.titulohotel {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.imgsanjuan {
+    margin-left: 50px;
+    width: 500px;
+    
+}
+
+.titulosanjuan {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+
+.titulosanjuan1 {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+
+.bailarda {
+    margin-left: -22px;
+    width: 500px;
+    
+}
+
+.titulobailarda {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+
+.imgpaz {
+    margin-left: 0px;
+    width: 400px;
+}
+
+.imgpaz1 {
+    width: 300px;
+    margin-left: 50px;
+}
+
+
+.titulopaz1 {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.titulopaz {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.imggallegos {
+    margin-left: 0px;
+    width: 500px;
+}
+
+.imggallegos1 {
+    width: 500px;
+}
+
+
+.titulogallegos {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.titulogallegos1 {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.imgrocco {
+    margin-left: 0px;
+    width: 450px;
+}
+
+.tituloroco {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.tituloroco1 {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.imgcomple {
+    margin-left: -50px;
+    width: 500px;
+}
+
+
+.imgcomplejo1 {
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-top: -10px;
+    
+}
+
+.imgcomple1 {
+width: 500px;
+margin-left: -150px;
+
+}
+
+.imgcomple2 {
+    width: 500px;
+    margin-left: -147px;
+}
+
+.imgcomple3 {
+    width: 500px;
+    margin-left: -150px;
+}
+
+.imgcomplejo2 {
+    width: 500px;
+}
+
+.imgcomplejo3 {
+    width: 500px;
+}
+
+.titulopampa {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+.titulopampa1 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.imgjuez {
+    margin-left: 0px;
+    width: 500px;
+}
+
+.titulojuez {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+.titulojuez1 {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.imgcomplejo2 {
+    width: 200px;
+    margin-left: 270px;
+   
+}
+
+.imgcomplejo3 {
+   width: 220px;
+   height: 147px;
+   margin-top: -177px;
+   margin-left: 50px;
+}
+
+
+
+}
+
+ 
 
  /* tablet y notebook */
 
 
- @media only screen and (min-width:481px) and (max-width:650px) {
+ @media only screen and (min-width:900px) and (max-width:1460px) {
 
+
+
+    .navbar {
+        margin-top: -100px;
+    }
+
+    .textito3 {
+        text-decoration: none;
+        color: #FFF;
+    }
+   
     .letraflor {
         margin-left: -250px;
         margin-top: -100px;
@@ -1504,10 +1874,168 @@ margin-top: -1000px;
         
     }
 
+    .container-fluid {
+         margin-left: -300px;
+    }
+
+   .fot1 {
+    margin-left: -150px;
+   }
+
+   .emagen2 {
+    margin-left: 0px;
+   }
+
+  .foterking {
+    margin-left: -750px;
+  }
+
+  .imgaro {
+    margin-left: 1050px;
+  }
+
+  .imgmanu {
+    margin-left: 1070px;
+  }
+
+  .localidad {
+    margin-left: -200px;
+  }
+
+  .titulomante {
+    margin-left: 120px;
+    margin-top: 70px;
+  }
+
+  .textito {
+    font-size: 13px;
+  }
+
+  .secnos {
+    margin-left: -800px;
+  }
+
+  .txtx {
+    font-size: 12px;
+    margin-left: -900px;
+  }
+
+  .txtx10 {
+    margin-left: -100px;
+  }
+
+  .txtx11 {
+    margin-left: -90px;
+  }
+
+  .txtx22 {
+    margin-left: 500px;
+  }
+
+  .textito {
+    font-size: 12px;
+  }
+  
+  .titueri {
+    margin-left: -170px;
+  }
+
+  .letraeri2 {
+    font-size: 40px;
+    margin-left: -800px;
+  }
+
+  .terminado1 {
+    margin-left: -100px;
+  }
+
+  .terminado2 {
+    margin-left: -100px;
+  }
+  .terminado3 {
+    margin-left: -170px;
+  }
+  .terminado4 {
+    margin-left: -200px;
+  }
+
+  .conte5 {
+    margin-left: -800px;
+  }
+
+  .imgservi {
+    margin-left: 200px;
+    width: 800px;
+    height: 850px;
+  }
+
+  .row-cols-md-2 {
+    margin-left: 200px;
+  }
+
+  .sectioninit {
+    margin-left: -90px;
+  }
+
+  .tituloflor {
+   margin-left: -100px;
+  }
+
+  .img01 {
+    margin-left: -170px;
+  }
+
+  .titulosp {
+    color: black;
+    margin-left: 300px;
+}
+
+.imgspa {
+    margin-left: 120px;
+}
+
+.imgsanjuan {
+    margin-left: 200px;
+}
+
+.bailarda {
+    margin-left: 150px;
+}
+
+.imgpaz {
+    margin-left: 300px;
+}
+
+.imggallegos {
+    margin-left: 350px;
+}
+
+.imgrocco {
+    margin-left: 450px;
+}
+
+.imgcomplejo1 {
+    margin-top: -400px;
+    margin-left: 1120px;
+}
+
+.imgcomple {
+    margin-left: 10px;
+}
+
+
+.imgjuez {
+    margin-left: 250px;
+}
+
+
+
+  
  }
 
  /* pc */
     @media only screen and (min-width:481px) and (max-width:1650px) {
+
 
         .foterking {
             margin-top: 100px;
@@ -1516,8 +2044,8 @@ margin-top: -1000px;
             width: 3000px;
             
         }
-    
-    }
-
 
  
+
+    }
+
